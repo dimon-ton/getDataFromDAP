@@ -6,6 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
+# go to cmd and cd to msedge.exe and enter this line "msedge.exe --remote-debugging-port=9222 --user-data-dir="C:\selprofile"
+# open manually ---> https://dpa-hr.otepc.go.th/hr/people/management/1045450101
+
 OUTPUT_FILE = 'result.txt'
 
 def write_to_file(people_data, file_path):
